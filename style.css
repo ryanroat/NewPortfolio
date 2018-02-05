@@ -1,0 +1,56 @@
+html, body {
+  background-color: #DDD;
+  font-family: 'Concert One', cursive;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: 50px 350px 50px;
+  grid-gap: 5px;
+  grid-template-areas: 
+    "h h h h h"
+    "m c c c c"
+    "f f f f f";
+}
+
+.header {
+  padding: 5px;
+  color: #EEE;
+  font-size: 2em;
+  grid-area: h;
+  background-color: #111;
+  border-radius: 5px;
+}
+.menu {
+  grid-area: m;
+  background-color: #999;
+  border-radius: 5px;
+}
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.5em;
+}
+.menu a {
+  color: #111;
+}
+.menu a:link {
+  text-decoration: none;
+}
+.menu a:hover {
+  color: #555;
+}
+.menu a:active {
+  color: #EEE;
+}
+.content {
+  grid-area: c;
+  background-color: darkgray;
+  border-radius: 5px;
+}
+.footer {
+  grid-area: f;
+  background-color: lightsalmon;
+  border-radius: 5px;
+}
