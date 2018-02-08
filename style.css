@@ -57,6 +57,9 @@ img, img.scale-with-grid {
   background-color: darkgray;
   border-radius: 5px;
 }
+.main-img {
+  border-radius: 5px;
+}
 .footer {
   grid-area: f;
   background-color: lightsalmon;
