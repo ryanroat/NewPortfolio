@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html, body {
   background-color: #DDD;
   font-family: 'Concert One', cursive;
@@ -23,6 +28,9 @@ img, img.scale-with-grid {
 }
 
 .header {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
   padding: 5px;
   color: #EEE;
   font-size: 2em;
@@ -31,13 +39,14 @@ img, img.scale-with-grid {
   border-radius: 5px;
 }
 .menu {
+  margin: 5px;
   grid-area: m;
   background-color: #999;
   border-radius: 5px;
 }
 .menu ul {
   list-style-type: none;
-  padding: 0;
+  padding: 5px;
   font-size: 1.5em;
 }
 .menu a {
@@ -53,6 +62,7 @@ img, img.scale-with-grid {
   color: #EEE;
 }
 .content {
+  margin: 5px;
   grid-area: c;
   background-color: darkgray;
   border-radius: 5px;
@@ -61,6 +71,8 @@ img, img.scale-with-grid {
   border-radius: 5px;
 }
 .footer {
+  margin-left: 5px;
+  margin-right: 5px;
   grid-area: f;
   background-color: lightsalmon;
   border-radius: 5px;
