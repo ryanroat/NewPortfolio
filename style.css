@@ -38,6 +38,15 @@ img, img.scale-with-grid {
   background-color: #111;
   border-radius: 5px;
 }
+
+.header a {
+  color: #EEE;
+}
+
+.header a:link {
+  text-decoration: none;
+}
+
 .menu {
   margin: 5px;
   grid-area: m;
